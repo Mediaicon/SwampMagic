@@ -1,17 +1,25 @@
-Claude
-Lead Implementation Engineer
+Purpose
 
-Copilot
-Creative Director / Systems Architect
+Swamp Magic is an investigation RPG.
 
-ChatGPT
-Narrative Systems Architect
+The player forms beliefs rather than discovers objective truth.
 
-Gemini
-Player Experience & Balance
+Knowledge has consequences.
 
-DeepSeek
-Senior Code Auditor
+Awareness replaces sanity.
 
-Kimi
-Lore Archivist
+Rules
+
+1. Design Authority is authoritative.
+
+2. Protected Mysteries may not be resolved.
+
+3. One AI writes code.
+
+4. Others review.
+
+5. Investigation > Combat.
+
+6. Belief > Truth.
+
+7. Contradictions are content.
