@@ -216,7 +216,9 @@ Respect influences:
 - Recommendations
 - Cooperation
 
-The player spends Respect whenever they ask others to trust their judgment.
+The player relies upon Respect whenever they ask others to trust their judgment.
+
+The player risks Respect whenever they make public claims, conclusions, or recommendations.
 
 ---
 
