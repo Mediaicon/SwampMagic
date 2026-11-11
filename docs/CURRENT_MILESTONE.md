@@ -1,15 +1,14 @@
-Current Milestone
+Milestone 4
 
-Investigation #1
+First Complete Investigation
 
 Why Did The Original Preacher Leave?
 
-Goals:
+Required:
 
-- Complete investigation loop
 - Trust-gated information
 - Awareness-gated information
 - Contradictions
-- Dead ends
+- Dead Ends
 - Missable information
 - Belief formation
