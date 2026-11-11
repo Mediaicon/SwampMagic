@@ -99,6 +99,45 @@ def look_around():
     print()
     input("Press Enter...")
 
+def talk_to_storekeeper():
+
+    print()
+
+    if not player.flags["met_storekeeper"]:
+
+        print("The storekeeper watches you carefully.")
+        print()
+        print('"You\'re new."')
+        print()
+        print('"That makes you interesting."')
+
+        player.flags["met_storekeeper"] = True
+
+        add_journal_entry(
+            "Met the storekeeper. She seemed unusually interested in newcomers."
+        )
+
+    else:
+
+        print("The storekeeper leans against a shelf.")
+        print()
+
+        if player.awareness >= 10:
+
+            print(
+                '"Don\'t listen to the ferryman. He thinks everything in Ferry Landing means something."'
+            )
+
+            add_journal_entry(
+                "The storekeeper dismissed the ferryman's ideas about Ferry Landing."
+            )
+
+        else:
+
+            print('"The ferryman talk your ear off yet?"')
+
+    print()
+    input("Press Enter...")
 
 def ferry_landing_dock():
 
@@ -129,13 +168,15 @@ def ferry_landing_dock():
             talk_to_ferryman()
 
         elif choice == "2":
-            look_around()
+            talk_to_storekeeper()
 
         elif choice == "3":
-            show_journal()
+            look_around()
 
         elif choice == "4":
+            show_journal()
 
+        elif choice == "5":
             print()
             print("You leave the dock.")
             break
