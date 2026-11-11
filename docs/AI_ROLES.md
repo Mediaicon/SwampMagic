@@ -1,17 +1,20 @@
-Claude
-Lead Implementation Engineer
+Executive Producer
+Matt
 
-Copilot
 Creative Director / Systems Architect
+Microsoft Copilot
 
-ChatGPT
+Lead Implementation Engineer
+Claude
+
 Narrative Systems Architect
+ChatGPT
 
+Player Experience & Systems Review
 Gemini
-Player Experience & Balance
 
-DeepSeek
 Senior Code Auditor
+DeepSeek
 
+Lore Archivist & Continuity Editor
 Kimi
-Lore Archivist
