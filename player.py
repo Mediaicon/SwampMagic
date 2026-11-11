@@ -5,6 +5,7 @@ class Player:
 
         self.flags = {
             "met_ferryman": False,
+            "met_storekeeper": False,
             "heard_about_ferry_landing": False
         }
 
