@@ -1,32 +1,33 @@
 # Attributes
 
-This document defines the core attributes used by player characters.
+This document defines the core attributes used by player characters in Swamp Magic.
 
 Attributes represent who a character is.
 
-They are distinct from Skills, which represent learned capabilities, and Conditions, which represent a character's current state.
+Attributes are distinct from Skills, which represent learned capabilities, and Conditions, which represent the character's current state.
 
 Attributes should change rarely.
 
-Attributes represent long-term personal growth and development.
+Attributes represent long-term personal growth rather than short-term progression.
 
 ---
 
 # Design Principles
 
-Attributes should be:
+Attributes should:
 
-- Broad enough to matter throughout the game.
-- Narrow enough to have a clear identity.
-- Roughly equal in overall value.
-- Relevant to investigation, relationships, and survival.
+- Matter throughout the entire game.
+- Represent broad aspects of a person's character.
+- Be roughly equal in overall value.
+- Influence multiple skills and gameplay systems.
+- Provide benefits and drawbacks.
+- Never become universal solutions.
 
-No Attribute should become a universal solution.
-
-Every Attribute must answer two questions:
+Every Attribute must answer:
 
 - What is it?
 - What is it NOT?
+- How does it grow?
 
 ---
 
@@ -38,28 +39,40 @@ Fortitude represents endurance and resilience.
 
 Fortitude influences:
 
-- Endurance
-- Recovery
 - Physical hardship
-- Illness resistance
 - Fatigue resistance
-- Pain tolerance
+- Recovery
+- Illness resistance
 - Long-term exertion
+- Pain tolerance
+- Working through discomfort
+- Continuing when others stop
 
-A character with high Fortitude can keep going when others would stop.
+A character with high Fortitude can endure difficult circumstances longer than most people.
 
 ## What It Is Not
 
 Fortitude is not:
 
-- Physical strength
+- Strength
 - Fighting ability
-- Intimidation
-- Courage
-- Athletic skill
 - Combat training
+- Intimidation
+- Athletic talent
+- Courage
 
-Fortitude represents endurance, not power.
+Fortitude is about endurance, not power.
+
+## How It Grows
+
+Fortitude may grow through:
+
+- Hard travel
+- Physical hardship
+- Injury and recovery
+- Long investigations
+- Difficult labor
+- Surviving dangerous situations
 
 ---
 
@@ -73,12 +86,11 @@ Presence influences:
 
 - Authority
 - Confidence
+- Commanding attention
+- Intimidating presence
+- Leadership
 - First impressions
 - Personal magnetism
-- Command of attention
-- Intimidating presence
-
-Presence affects how strongly people react to the character.
 
 A character with high Presence is difficult to ignore.
 
@@ -91,9 +103,21 @@ Presence is not:
 - Honesty
 - Deception
 - Knowledge
-- Persuasion skill
+- Popularity
 
-Presence affects attention, not relationships.
+Presence affects how strongly people react to you.
+
+Presence does not determine whether those reactions are positive.
+
+## How It Grows
+
+Presence may grow through:
+
+- Community involvement
+- Leadership
+- Successfully navigating social situations
+- Building influence
+- Earning respect
 
 ---
 
@@ -106,13 +130,13 @@ Knowledge represents learning and understanding.
 Knowledge influences:
 
 - Education
-- Memory
 - Research
+- Memory
 - Historical understanding
-- Technical understanding
-- Academic expertise
+- Cultural understanding
+- Technical expertise
 
-Knowledge affects what a character already knows and how easily new information is understood.
+Knowledge affects what a character knows and how effectively information can be interpreted.
 
 ## What It Is Not
 
@@ -120,11 +144,22 @@ Knowledge is not:
 
 - Awareness
 - Wisdom
-- Social intelligence
-- Determination
+- Common sense
 - Intuition
+- Social intelligence
 
 Knowledge represents learned understanding.
+
+## How It Grows
+
+Knowledge may grow through:
+
+- Study
+- Investigation
+- Research
+- Reading
+- Learning from others
+- Practical experience
 
 ---
 
@@ -136,14 +171,14 @@ Will represents determination and self-control.
 
 Will influences:
 
-- Persistence
 - Focus
-- Resolve
+- Persistence
+- Discipline
 - Emotional resilience
 - Resistance to pressure
-- Long-term commitment
+- Commitment to difficult goals
 
-A character with high Will continues pursuing difficult goals despite opposition.
+A character with high Will continues when giving up would be easier.
 
 ## What It Is Not
 
@@ -155,7 +190,18 @@ Will is not:
 - Social influence
 - Education
 
-Will represents persistence, not capability.
+Will represents persistence rather than capability.
+
+## How It Grows
+
+Will may grow through:
+
+- Difficult choices
+- Maintaining convictions
+- Resisting temptation
+- Completing challenging investigations
+- Enduring pressure
+- Facing uncomfortable truths
 
 ---
 
@@ -165,23 +211,70 @@ Awareness is NOT an Attribute.
 
 Awareness is a Condition.
 
-Awareness is gained through exposure, investigation, and experience.
+Awareness represents exposure to things most people do not notice.
 
-Awareness represents a growing ability to perceive contradictions, hidden details, and unsettling truths.
+Awareness is gained through:
+
+- Investigation
+- Experience
+- Exposure
+- Discovery
 
 Awareness is a burden.
 
-Awareness is not a progression reward.
+Awareness is not a reward.
 
 Awareness should often complicate understanding rather than simplify it.
 
-Details regarding Awareness are documented elsewhere.
+Awareness is documented separately from the Attribute system.
+
+---
+
+# Attributes and Skills
+
+Skills are influenced by one or more Attributes.
+
+No Skill should depend entirely on a single Attribute.
+
+Examples:
+
+| Skill | Influenced By |
+|---------|---------|
+| Rapport | Presence + Will |
+| Lore | Knowledge + Will |
+| Trade | Presence + Knowledge |
+| Medicine | Knowledge + Will |
+| Survival | Fortitude + Knowledge |
+| Investigation | Knowledge + Presence |
+| Resolve | Will + Fortitude |
+
+These examples are design direction only and are subject to change.
+
+---
+
+# Attributes and Origins
+
+Origins are backgrounds, not classes.
+
+Origins may provide:
+
+- Starting Skills
+- Contacts
+- Relationships
+- Knowledge
+- Opportunities
+
+Origins should not determine a character's Attributes.
+
+Attributes represent the individual.
+
+Origins represent their history.
 
 ---
 
 # Attributes, Skills, and Conditions
 
-The character system is divided into three categories.
+The character system consists of three layers.
 
 ## Attributes
 
@@ -200,21 +293,19 @@ Attributes change slowly.
 
 ## Skills
 
-Skills represent learned capabilities.
+Skills represent what the character can do.
 
 Examples:
 
 - Rapport
 - Lore
-- Perception
-- Trade
+- Investigation
 - Survival
+- Trade
 
-Skills may improve through use, experience, training, and growth.
+Skills improve through use, learning, and experience.
 
 Skills are influenced by one or more Attributes.
-
-Skill documentation is maintained separately.
 
 ---
 
@@ -236,15 +327,23 @@ Conditions are not Attributes.
 
 ---
 
-# Growth
+# Growth Philosophy
 
-Characters grow through experience.
+Characters grow through participation in the world.
 
-Growth should primarily reflect personal development.
+Growth should come from:
 
-Growth should not function as a traditional experience-point treadmill.
+- Completing investigations
+- Building relationships
+- Earning trust
+- Earning respect
+- Solving problems
+- Learning
+- Enduring hardship
 
-Completing investigations, solving problems, building relationships, earning trust, surviving hardship, and engaging with the world should all contribute to growth.
+Character growth should reflect the person the character is becoming.
+
+Growth is not intended to function as a traditional experience-point treadmill.
 
 Attributes represent who the character becomes.
 
