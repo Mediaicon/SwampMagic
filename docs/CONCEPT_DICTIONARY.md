@@ -46,6 +46,28 @@ The game should rarely confirm whether a belief is correct.
 
 ---
 
+# Condition
+
+A Condition is a state currently affecting the character.
+
+Conditions may be temporary or long-term.
+
+Examples:
+
+- Awareness
+- Injury
+- Fatigue
+- Reputation
+- Standing
+
+Not all Conditions change at the same rate.
+
+Some Conditions (such as Injury or Fatigue) may fluctuate rapidly.
+
+Others (such as Awareness) may develop slowly over the course of the game.
+
+---
+
 # Truth
 
 Truth is objective reality.
