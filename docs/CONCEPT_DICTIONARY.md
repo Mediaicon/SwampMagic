@@ -8,6 +8,18 @@ When a term is used in design discussions, documentation, or code comments, it s
 
 ---
 
+# Documentation Authority
+
+CONCEPT_DICTIONARY.md is authoritative for terminology.
+
+Subsystem documents are authoritative for subsystem behavior.
+
+Any new capitalized game term must be added to CONCEPT_DICTIONARY.md.
+
+When terminology conflicts with subsystem documentation, the Concept Dictionary takes precedence.
+
+---
+
 # Awareness
 
 Awareness represents a growing ability to notice patterns, contradictions, hidden details, and inconsistencies.
