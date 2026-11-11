@@ -42,6 +42,109 @@ Awareness may never:
 
 ---
 
+## Skill
+
+A Skill represents a learned capability.
+
+Skills describe what a character can do.
+
+Skills improve through experience, practice, investigation, and participation in the world.
+
+Skills are influenced by one or more Attributes.
+
+Skills are defined in SKILLS.md.
+
+---
+
+## Respect
+
+Respect represents confidence in the player's judgment.
+
+Respect differs from Trust.
+
+Trust is personal.
+
+Respect is social.
+
+Respect may influence:
+
+- Cooperation
+- Recommendations
+- Information sharing
+- Credibility
+- Opportunities
+
+Respect is earned through competence, service, reliability, and consistency.
+
+Respect is not currency.
+
+Respect may be gained or lost through player actions.
+
+---
+
+## Boon
+
+A Boon is a lasting advantage granted by a person, faction, belief system, ritual, organization, or unknown influence.
+
+Boons provide opportunities, advantages, access, or special capabilities.
+
+Boons are defined in BOONS_AND_INFLUENCES.md.
+
+Boons should never be considered free rewards.
+
+Every Boon has consequences.
+
+---
+
+## Brief
+
+Brief is an informal or legacy term for a Case.
+
+Within the project, Brief and Case may be used interchangeably unless explicitly stated otherwise.
+
+For consistency, new documentation should prefer the term Case.
+
+Existing references to Briefs should generally be interpreted as Cases, Case Assignments, or investigative work provided to the player.
+
+Briefs follow all rules governing Cases.
+
+---
+
+## Influence
+
+Influence represents a lasting connection between the player and the source of a Boon.
+
+Influence may represent:
+
+- Loyalty
+- Obligation
+- Debt
+- Faith
+- Corruption
+- Exposure
+- Affiliation
+- Dependence
+
+Influence is generally hidden from the player.
+
+Influence is defined in BOONS_AND_INFLUENCES.md.
+
+---
+
+## Attribute
+
+An Attribute represents a fundamental aspect of a character.
+
+Attributes describe who the character is.
+
+Attributes change slowly and reflect long-term personal growth.
+
+The current Attributes are defined in ATTRIBUTES.md.
+
+Attributes are distinct from Skills and Conditions.
+
+---
+
 # Belief
 
 A belief is an interpretation formed by the player.
@@ -401,19 +504,12 @@ Canon should never contain answers to Protected Mysteries.
 
 ---
 
-## Brief
+Awareness is a slow-changing Condition.
 
-Brief is an informal or legacy term for a Case.
+Unlike Fatigue or Injury, Awareness generally accumulates rather than fluctuates.
 
-Within the project, Brief and Case may be used interchangeably unless explicitly stated otherwise.
+Awareness is not an Attribute and is not a Skill.
 
-For consistency, new documentation should prefer the term Case.
-
-Existing references to Briefs should generally be interpreted as Cases, Case Assignments, or investigative work provided to the player.
-
-Briefs follow all rules governing Cases.
-
----
 
 # Core Principle
 
