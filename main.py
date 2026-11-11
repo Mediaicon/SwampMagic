@@ -34,47 +34,59 @@ def show_journal():
 
 def talk_to_ferryman():
 
-    print()
+    while True:
 
-    if not player.flags["met_ferryman"]:
-
+        print()
         print("The ferryman watches the water.")
         print()
-        print('"You\'re not from around here."')
+
+        print("1. Ask about Ferry Landing")
+        print("2. Ask about the Original Preacher")
+        print("3. Leave")
         print()
-        print(
-            "The old man glances at you briefly before returning his attention to the river."
-        )
 
-        player.flags["met_ferryman"] = True
+        choice = input("> ")
 
-        add_journal_entry(
-            "Met the ferryman. He immediately recognized I was an outsider."
-        )
+        if choice == "1":
 
-    elif player.awareness < 10:
+            print()
 
-        print("The ferryman spits into the river.")
-        print()
-        print('"You again."')
-        print()
-        print('"You ask a lot of questions for someone who just got here."')
+            if player.awareness < 10:
 
-    else:
+                print('"Ferry Landing takes anybody nobody else wants."')
 
-        print("The ferryman stares into the fog.")
-        print()
-        print('"You still think Ferry Landing is a place."')
-        print()
-        print('"Most people figure out eventually that it\'s a consequence."')
+            else:
 
-        add_journal_entry(
-            "The ferryman called Ferry Landing a consequence rather than a place."
-        )
+                print('"You still think Ferry Landing is a place."')
+                print()
+                print('"It is a consequence."')
 
-    print()
-    input("Press Enter...")
+                add_journal_entry(
+                    "The ferryman described Ferry Landing as a consequence."
+                )
 
+            print()
+            input("Press Enter...")
+
+        elif choice == "2":
+
+            print()
+
+            print('"Folks ask about him."')
+            print()
+
+            print('"Funny thing is nobody asks why he left."')
+
+            add_journal_entry(
+                "The ferryman suggested the Original Preacher fled for a reason."
+            )
+
+            print()
+            input("Press Enter...")
+
+        elif choice == "3":
+
+            break
 
 def look_around():
 
@@ -101,43 +113,58 @@ def look_around():
 
 def talk_to_storekeeper():
 
-    print()
+    while True:
 
-    if not player.flags["met_storekeeper"]:
-
-        print("The storekeeper watches you carefully.")
         print()
-        print('"You\'re new."')
-        print()
-        print('"That makes you interesting."')
-
-        player.flags["met_storekeeper"] = True
-
-        add_journal_entry(
-            "Met the storekeeper. She seemed unusually interested in newcomers."
-        )
-
-    else:
-
-        print("The storekeeper leans against a shelf.")
+        print("The storekeeper studies you carefully.")
         print()
 
-        if player.awareness >= 10:
+        print("1. Ask about Ferry Landing")
+        print("2. Ask about the Original Preacher")
+        print("3. Leave")
+        print()
 
-            print(
-                '"Don\'t listen to the ferryman. He thinks everything in Ferry Landing means something."'
-            )
+        choice = input("> ")
+
+        if choice == "1":
+
+            print()
+
+            print('"Don\'t let the ferryman fill your head."')
+            print()
+
+            print('"Some people need mysteries to survive."')
 
             add_journal_entry(
-                "The storekeeper dismissed the ferryman's ideas about Ferry Landing."
+                "The storekeeper believes the ferryman sees meaning everywhere."
             )
 
-        else:
+            print()
+            input("Press Enter...")
 
-            print('"The ferryman talk your ear off yet?"')
+        elif choice == "2":
 
-    print()
-    input("Press Enter...")
+            print()
+
+            print('"The Original Preacher?"')
+            print()
+
+            print('"Most people think he ran."')
+            print()
+
+            print('"Most people are lazy thinkers."')
+
+            add_journal_entry(
+                "The storekeeper does not believe the Original Preacher simply ran away."
+            )
+
+            print()
+            input("Press Enter...")
+
+        elif choice == "3":
+
+            break
+
 
 def ferry_landing_dock():
 
