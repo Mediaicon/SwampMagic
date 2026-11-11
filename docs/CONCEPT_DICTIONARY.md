@@ -401,6 +401,20 @@ Canon should never contain answers to Protected Mysteries.
 
 ---
 
+## Brief
+
+Brief is an informal or legacy term for a Case.
+
+Within the project, Brief and Case may be used interchangeably unless explicitly stated otherwise.
+
+For consistency, new documentation should prefer the term Case.
+
+Existing references to Briefs should generally be interpreted as Cases, Case Assignments, or investigative work provided to the player.
+
+Briefs follow all rules governing Cases.
+
+---
+
 # Core Principle
 
 The player does not complete uncertainty.
