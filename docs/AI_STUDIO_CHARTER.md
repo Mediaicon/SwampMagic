@@ -33,3 +33,13 @@ One AI writes code.
 Other AIs review.
 
 All major decisions are recorded.
+
+Repository State Rule
+
+All reviewers must treat the current repository as authoritative.
+
+Reviews may not rely on previous repository states.
+
+When asked to review, reviewers must explicitly confirm they have reviewed the current version of all referenced files.
+
+If current repository contents conflict with previous reviews, repository contents take precedence.
