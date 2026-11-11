@@ -184,11 +184,10 @@ def ferry_landing_dock():
         print()
 
         print("1. Talk to Ferryman")
-        print("2. Look Around")
-        print("3. Journal")
-        print("4. Leave")
-        print()
-
+        print("2. Talk to Storekeeper")
+        print("3. Look Around")
+        print("4. Journal")
+        print("5. Leave")
         choice = input("> ")
 
         if choice == "1":
