@@ -1,12 +1,15 @@
-Purpose
+Swamp Magic is a Southern Gothic investigation RPG.
 
-Swamp Magic is an investigation RPG.
-
-The player forms beliefs rather than discovers objective truth.
+The player forms beliefs rather than discovering objective truth.
 
 Knowledge has consequences.
 
 Awareness replaces sanity.
+
+Protected Mysteries are protected.
+
+The Design Authority Document is canonical.
+
 
 Rules
 
@@ -23,3 +26,10 @@ Rules
 6. Belief > Truth.
 
 7. Contradictions are content.
+
+
+One AI writes code.
+
+Other AIs review.
+
+All major decisions are recorded.
