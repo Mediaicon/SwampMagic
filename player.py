@@ -5,5 +5,7 @@ class Player:
 
         self.flags = {
             "met_ferryman": False,
-            "heard_about_preacher": False
+            "heard_about_ferry_landing": False
         }
+
+        self.journal = []
