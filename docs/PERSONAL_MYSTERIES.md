@@ -415,10 +415,11 @@ All Personal Mysteries should follow these boundaries:
 
 ## Current Protected Mystery Reference
 
-The currently documented Protected Mystery boundary is:
+Personal Mysteries currently reference PM-1 directly.
 
-**PM-1 — Who burned the church?**
+Additional Protected Mysteries are documented in PROTECTED_MYSTERIES.md.
 
+That registry remains the authoritative source for Protected Mystery definitions and boundaries.
 Its status is **Protected** and it may not be answered.
 
 Personal Mysteries may approach PM-1, create beliefs about it, and connect other questions to it. They may never establish who burned the church as objective truth.
